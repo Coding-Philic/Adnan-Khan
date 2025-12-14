@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Hero Section</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <main class="hero">
+    <div class="hero-inner">
+      <!-- Left: Text -->
+      <section class="hero-content">
+        <p class="hero-tag hero-animate" data-animate-order="1">
+          Hey, I’m
+        </p>
+
+        <h1 class="hero-name hero-animate" data-animate-order="2">
+          Adnan Khan.
+        </h1>
+
+        <h2 class="hero-title hero-animate" data-animate-order="3">
+          Computer Science Student&nbsp;|&nbsp;Web Developer&nbsp;|&nbsp;AI Enthusiast
+        </h2>
+
+        <p class="hero-desc hero-animate" data-animate-order="4">
+          Building modern, fast, and intelligent web experiences with clean UI and solid engineering.
+        </p>
+
+        <div class="hero-actions hero-animate" data-animate-order="5">
+          <a href="#projects" class="btn primary-btn">
+            View Projects
+          </a>
+          <a href="#resume" class="btn ghost-btn">
+            Download Resume
+          </a>
+        </div>
+      </section>
+
+      <!-- Right: Image -->
+      <section class="hero-image-wrap hero-animate" data-animate-order="6">
+        <div class="hero-image-frame">
+          <img
+            src="WhatsApp Image 2025-12-10 at 6.43.20 PM.jpeg"
+            alt="Developer portrait"
+            class="hero-image"
+          />
+        </div>
+        <div class="hero-image-chip">
+          <span class="chip-dot"></span>
+          <span class="chip-text">Available for freelance</span>
+        </div>
+      </section>
+    </div>
+    
+  </main>
+ <section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-heading-row" data-about="0">
+      <p class="section-label">About Me</p>
+      <h2 class="section-title">
+        B.Tech CSE student, building real things on the web.
+      </h2>
+    </div>
+
+    <div class="about-grid">
+      <p class="about-text" data-about="1">I’m a B.Tech CSE student who enjoys turning ideas into clean, working web apps.</p>
+      <p class="about-text" data-about="2">My current focus is Web Development, AI, and Robotics, exploring how they can work together in real projects.</p>
+      <p class="about-text" data-about="3">The goal is simple: keep learning, build real-world products, and ship useful tools people actually want to use.</p>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="skills-inner">
+    <div class="skills-header-row">
+      <div class="skills-icon-wrap">
+        <svg class="skills-icon" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="20" fill="none" stroke="#1d4ed8" stroke-width="2" />
+          <rect x="14" y="30" width="4" height="10" rx="1.5" fill="#22d3ee" />
+          <rect x="22" y="24" width="4" height="16" rx="1.5" fill="#38bdf8" />
+          <rect x="30" y="18" width="4" height="22" rx="1.5" fill="#f97316" />
+          <circle cx="24" cy="16" r="2.3" fill="#e5e7eb" />
+        </svg>
+      </div>
+
+      <div>
+        <p class="section-label">Skills</p>
+        <h2 class="section-title">
+          Clear overview of what is used in my projects.
+        </h2>
+        <p class="skills-desc">
+          Each card shows a core skill with an approximate level, filling up like a download bar when the section comes into view.
+        </p>
+      </div>
+    </div>
+
+    <!-- Skills grid: each skill = individual card -->
+    <div class="skills-grid">
+      <!-- Programming -->
+      <article class="skill-card" data-skill-level="100">
+        <h3 class="skill-card-title">HTML</h3>
+        <p class="skill-card-text">Semantic, accessible structure for web apps.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">100%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="90">
+        <h3 class="skill-card-title">CSS</h3>
+        <p class="skill-card-text">Responsive layouts and modern UI styling.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">90%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="85">
+        <h3 class="skill-card-title">JavaScript</h3>
+        <p class="skill-card-text">Interactive, dynamic behaviour on the client.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">85%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="75">
+        <h3 class="skill-card-title">Python</h3>
+        <p class="skill-card-text">Scripting, automation, and AI/ML experiments.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">75%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="70">
+        <h3 class="skill-card-title">C</h3>
+        <p class="skill-card-text">Low-level concepts and problem solving.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">70%</span>
+      </article>
+
+      <!-- Tools -->
+      <article class="skill-card" data-skill-level="80">
+        <h3 class="skill-card-title">Git</h3>
+        <p class="skill-card-text">Version control and clean commit history.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">80%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="85">
+        <h3 class="skill-card-title">GitHub</h3>
+        <p class="skill-card-text">Project hosting, collaboration, and issues.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">85%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="90">
+        <h3 class="skill-card-title">VS Code</h3>
+        <p class="skill-card-text">Productive coding with extensions and debugging.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">90%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="60">
+        <h3 class="skill-card-title">Raspberry Pi</h3>
+        <p class="skill-card-text">Small hardware projects and experiments.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">60%</span>
+      </article>
+
+      <!-- Tech focus -->
+      <article class="skill-card" data-skill-level="60">
+        <h3 class="skill-card-title">AI</h3>
+        <p class="skill-card-text">Exploring models and practical use-cases.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">60%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="55">
+        <h3 class="skill-card-title">ML basics</h3>
+        <p class="skill-card-text">Fundamentals of training and evaluation.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">55%</span>
+      </article>
+
+      <article class="skill-card" data-skill-level="40">
+        <h3 class="skill-card-title">Computer Vision</h3>
+        <p class="skill-card-text">Intro projects with images and video.</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <span class="skill-percent">40%</span>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="projects" id="projects">
+  <div class="projects-inner">
+    <div class="projects-header-row">
+      <div class="projects-icon-wrap">
+        <svg class="projects-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor">
+          <path d="M21 16V4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-12a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2z" stroke-width="2"/>
+          <circle cx="9" cy="7" r="2"/>
+          <path d="M21 29H9"/>
+        </svg>
+      </div>
+      <div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="projects-desc">Handcrafted web applications showcasing modern development practices.</p>
+      </div>
+    </div>
+    
+    <div class="projects-grid">
+      <div class="project-card" data-project-level="0">
+        <div class="project-header">
+          <h3 class="project-title">Humanoid Robot</h3>
+          <div class="project-links">
+            <a href="#" class="project-link" target="_blank">Live</a>
+            <a href="#" class="project-link github" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Autonomous robot with computer vision, pathfinding algorithms, and real-time control systems built for college tech fest.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">OpenCV</span>
+          <span class="tech-tag">Raspberry Pi</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-project-level="0">
+        <div class="project-header">
+          <h3 class="project-title">Quiz Website</h3>
+          <div class="project-links">
+            <a href="#" class="project-link" target="_blank">Live</a>
+            <a href="#" class="project-link github" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Interactive quiz platform with real-time scoring, leaderboards, and adaptive difficulty for educational institutions.</p>
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-project-level="0">
+        <div class="project-header">
+          <h3 class="project-title">AI Assistant</h3>
+          <div class="project-links">
+            <a href="#" class="project-link" target="_blank">Live</a>
+            <a href="#" class="project-link github" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Intelligent chatbot with natural language processing, context awareness, and multi-platform integration capabilities.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">TensorFlow</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-project-level="0">
+        <div class="project-header">
+          <h3 class="project-title">Music Website</h3>
+          <div class="project-links">
+            <a href="#" class="project-link" target="_blank">Live</a>
+            <a href="#" class="project-link github" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <p class="project-desc">Dynamic music streaming platform with waveform visualization, playlist management, and social sharing features.</p>
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Tailwind</span>
+          <span class="tech-tag">Web Audio API</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="experience" id="experience">
+  <div class="experience-inner">
+    <div class="experience-header-row">
+      <div class="experience-icon-wrap">
+        <svg class="experience-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor">
+          <path d="M22 2L11 13H18V34A2 2 0 0 0 20 36H30A2 2 0 0 0 32 34V13H39L28 2H22Z" stroke-width="3"/>
+          <path d="M16 25H32" stroke-width="3"/>
+          <path d="M20 25L20 31" stroke-width="3"/>
+          <path d="M28 25L28 31" stroke-width="3"/>
+        </svg>
+      </div>
+      <div>
+        <h2 class="section-title">Experience & Achievements</h2>
+        <p class="experience-desc">Key milestones from competitions, projects, and technical growth.</p>
+      </div>
+    </div>
+    
+    <div class="experience-timeline">
+      <div class="timeline-item" data-timeline="0">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <span class="timeline-date">2025</span>
+            <h3 class="timeline-title">Science Fair Winner</h3>
+          </div>
+          <p class="timeline-desc">1st Place - Humanoid Robot with computer vision & autonomous navigation at college tech fest.</p>
+          <div class="timeline-badges">
+            <span class="badge">🏆 Winner</span>
+            <span class="badge">🤖 Robotics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-timeline="0">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <span class="timeline-date">2025</span>
+            <h3 class="timeline-title">Hackathon Finalist</h3>
+          </div>
+          <p class="timeline-desc">Top 5 - AI-powered quiz platform with real-time leaderboards at regional hackathon.</p>
+          <div class="timeline-badges">
+            <span class="badge">🥈 Finalist</span>
+            <span class="badge">⚡ 48 Hours</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-timeline="0">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <span class="timeline-date">2024-25</span>
+            <h3 class="timeline-title">College Projects</h3>
+          </div>
+          <p class="timeline-desc">Led development of 5+ full-stack applications including e-commerce dashboard and educational tools.</p>
+          <div class="timeline-badges">
+            <span class="badge">💻 Full-Stack</span>
+            <span class="badge">🎓 B.Tech CSE</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-timeline="0">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <span class="timeline-date">2024-Present</span>
+            <h3 class="timeline-title">Certifications & Workshops</h3>
+          </div>
+          <p class="timeline-desc">Completed advanced courses in AI/ML, React/Next.js, and cloud deployment from industry platforms.</p>
+          <div class="timeline-badges">
+            <span class="badge">📚 AI/ML</span>
+            <span class="badge">🚀 Next.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="education" id="education">
+  <div class="education-inner">
+    <div class="education-header-row">
+      <div class="education-icon-wrap">
+        <svg class="education-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor">
+          <path d="M8 6L24 16L40 6V34C40 35.1 39.1 36 38 36H10C8.9 36 8 35.1 8 34V6Z" stroke-width="3"/>
+          <path d="M20 24H28" stroke-width="2"/>
+          <path d="M16 30H32" stroke-width="2"/>
+        </svg>
+      </div>
+      <div>
+        <h2 class="section-title">Education</h2>
+        <p class="education-desc">Academic journey and technical foundation.</p>
+      </div>
+    </div>
+    
+    <div class="education-grid">
+  <div class="education-card" data-edu="0">
+    <div class="education-degree">
+      <h3 class="degree-title">Bachelor of Technology</h3>
+      <span class="degree-branch">Computer Science Engineering</span>
+    </div>
+    <div class="education-details">
+      <div class="college-name">GCRG Groups of institutions</div>
+      <div class="year-range">2024 - 2028</div>
+    </div>
+    <div class="education-stats">
+      <span class="stat-item">CGPA: 8.3/10</span>
+      <span class="stat-item">Top 10%</span>
+    </div>
+  </div>
+
+  <div class="education-card" data-edu="0">
+    <div class="education-degree">
+      <h3 class="degree-title">Higher Secondary</h3>
+      <span class="degree-branch">Science (PCM)</span>
+    </div>
+    <div class="education-details">
+      <div class="college-name">Shia Inter College</div>
+      <div class="year-range">2022 - 2024</div>
+    </div>
+    <div class="education-stats">
+      <span class="stat-item gold-accent">79%</span>
+      <span class="stat-item">PCM Stream</span>
+    </div>
+  </div>
+
+  <div class="education-card" data-edu="0">
+    <div class="education-degree">
+      <h3 class="degree-title">Secondary School</h3>
+      <span class="degree-branch">Art Stream</span>
+    </div>
+    <div class="education-details">
+      <div class="college-name">Shia Inter College</div>
+      <div class="year-range">2020 - 2022</div>
+    </div>
+    <div class="education-stats">
+      <span class="stat-item blue-accent">70%</span>
+      <span class="stat-item">Art Stream</span>
+    </div>
+  </div>
+
+  <div class="education-card" data-edu="0">
+    <div class="education-degree">
+      <h3 class="degree-title">ADCA Certification</h3>
+      <span class="degree-branch">Advanced Diploma in Computer Application</span>
+    </div>
+    <div class="education-details">
+      <div class="year-range cert-year">2023 - 2024</div>
+    </div>
+    <div class="education-stats">
+      <span class="stat-item purple-accent">Completed</span>
+    </div>
+  </div>
+
+  <div class="education-card" data-edu="0">
+    <div class="education-degree">
+      <h3 class="degree-title">Personality Development</h3>
+      <span class="degree-branch">Professional Skills Course</span>
+    </div>
+    <div class="education-details">
+      <div class="college-name">Freedom Employable Academy</div>
+      <div class="year-range cert-year">2023 - 2024</div>
+    </div>
+    <div class="education-stats">
+      <span class="stat-item orange-accent">Completed</span>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+<section class="resume" id="resume">
+  <div class="resume-inner">
+    <div class="resume-header-row">
+      <div class="resume-icon-wrap">
+        <svg class="resume-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor">
+          <path d="M8 2H16L20 10H36V38H12L8 34V2Z" stroke-width="3"/>
+          <path d="M20 10V18H28V26" stroke-width="2"/>
+          <path d="M16 22H32" stroke-width="2"/>
+        </svg>
+      </div>
+      <div>
+        <h2 class="section-title">Download Resume</h2>
+        <p class="resume-desc">Comprehensive overview of skills, projects, and achievements. Always up-to-date.</p>
+      </div>
+    </div>
+    
+    <div class="resume-content">
+      <div class="resume-card" data-resume="0">
+        <div class="resume-preview">
+          <div class="preview-header">
+            <div class="preview-title">Adnan Khan</div>
+            <div class="preview-role">Full-Stack Developer</div>
+          </div>
+          <div class="preview-section">
+            <span class="preview-label"> Projects</span>
+            <span class="preview-count">4+</span>
+          </div>
+          <div class="preview-section">
+            <span class="preview-label"> Skills</span>
+            <span class="preview-count">12+</span>
+          </div>
+          <div class="preview-section">
+            <span class="preview-label"> Achievements</span>
+            <span class="preview-count">5+</span>
+          </div>
+        </div>
+        
+        <div class="resume-download">
+          <a href="Adnan-Khan.pdf" class="download-btn" download>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download Resume (PDF)
+          </a>
+          <p class="download-note">Updated December 2025 • 2 Pages</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-header-row">
+      <div class="contact-icon-wrap">
+        <svg class="contact-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor">
+          <path d="M4 4h16v16H4zM20 4h16v16H20zM4 20h16v16H4zM20 20h16v16H20z" stroke-width="3"/>
+          <circle cx="24" cy="24" r="6" stroke-width="2"/>
+        </svg>
+      </div>
+      <div>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-desc">Connect for collaborations, projects, or opportunities.</p>
+      </div>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-info" data-contact="0">
+  <h3 class="contact-title">Contact Info</h3>
+  
+  <div class="contact-item">
+    <svg class="contact-svg gmail" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M22.28 6.92C21.89 6.38 20.93 5.47 20.93 5.47L12 10.44L3.07 5.47S2.11 6.38 1.72 6.92C1.34 7.45 1.04 8.24 1.04 9.17V15C1.04 16.49 2.14 17.77 3.5 17.77S5.96 16.49 5.96 15V11.56L12 14.74L18.04 11.56V15C18.04 16.49 19.14 17.77 20.5 17.77S22.96 16.49 22.96 15V9.17C22.96 8.24 22.66 7.45 22.28 6.92Z"/>
+    </svg>
+    <a href="mailto:Adnan.Khan63945@gmail.com" class="contact-link">Adnan.Khan63945@gmail.com</a>
+  </div>
+  
+  <div class="contact-item">
+    <svg class="contact-svg linkedin" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+    </svg>
+    <a href="https://linkedin.com/in/adnan-khan3" class="contact-link linkedin">LinkedIn</a>
+  </div>
+  
+  <div class="contact-item">
+    <svg class="contact-svg github" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </svg>
+    <a href="https://github.com/Coding-Philic" class="contact-link github">github.com/Coding-Philic</a>
+  </div>
+</div>
+
+      
+      <div class="contact-form-wrap" data-contact="0">
+        <h3 class="contact-title">Send Message</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="name">Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            <label for="email">Email</label>
+          </div>
+          <div class="form-group full">
+            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+            <label for="message"></label>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Adnan Khan</h3>
+        <p class="footer-tagline">Full-Stack Developer</p>
+      </div>
+      
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4 class="footer-col-title">Sections</h4>
+          <ul>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-col-title">More</h4>
+          <ul>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+            <li><a href="#education" class="footer-link">Education</a></li>
+            <li><a href="#resume" class="footer-link">Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-col-title">Contact</h4>
+          <ul>
+            <li><a href="#contact" class="footer-link">Get In Touch</a></li>
+            <li><a href="mailto:your.email@gmail.com" class="footer-link">Email Me</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-social">
+        <a href="mailto:Adnan.Khan63945@gmail.com" class="social-link gmail" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22.28 6.92C21.89 6.38 20.93 5.47 20.93 5.47L12 10.44L3.07 5.47S2.11 6.38 1.72 6.92C1.34 7.45 1.04 8.24 1.04 9.17V15C1.04 16.49 2.14 17.77 3.5 17.77S5.96 16.49 5.96 15V11.56L12 14.74L18.04 11.56V15C18.04 16.49 19.14 17.77 20.5 17.77S22.96 16.49 22.96 15V9.17C22.96 8.24 22.66 7.45 22.28 6.92Z"/>
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/adnan-khan3" class="social-link linkedin" aria-label="LinkedIn" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/Coding-Philic" class="social-link github" aria-label="GitHub" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy; 2025 YourName. Built with using modern web technologies.</p>
+      <button class="scroll-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
