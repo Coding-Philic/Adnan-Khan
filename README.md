@@ -57,3 +57,52 @@ The website is optimized for:
 ├── Adnan-Khan.pdf # Resume (Downloadable)
 ├── preview.png # Social media preview image
 └── README.md # Project documentation
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+To deploy:
+1. Push the project to a GitHub repository
+2. Go to **Settings → Pages**
+3. Select `main` branch and root directory
+4. Save and access your live site
+
+---
+
+## 📸 Social Preview Support
+
+The website includes:
+- Open Graph meta tags
+- Twitter card support
+
+So links preview correctly on:
+- LinkedIn
+- WhatsApp
+- Twitter/X
+- Discord
+
+---
+
+## 👨‍💻 Author
+
+**Adnan Khan**  
+B.Tech CSE Student | Web Developer | AI & Robotics Enthusiast  
+
+- 🔗 LinkedIn: https://linkedin.com/in/adnan-khan3  
+- 💻 GitHub: https://github.com/Coding-Philic  
+- 📧 Email: Adnan.Khan63945@gmail.com  
+
+---
+
+## 📜 License
+
+This project is open-source and available for learning and inspiration.  
+Feel free to fork and customize — attribution appreciated.
+
+---
+
+⭐ If you like this project, don’t forget to give it a star!
+
