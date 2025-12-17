@@ -49,4 +49,11 @@ The website is optimized for:
 ---
 
 ## 📂 Project Structure
-
+📁 Adnan-Khan/
+│
+├── index.html # Main HTML file
+├── style.css # Styles & animations
+├── script.js # JavaScript interactions
+├── Adnan-Khan.pdf # Resume (Downloadable)
+├── preview.png # Social media preview image
+└── README.md # Project documentation
