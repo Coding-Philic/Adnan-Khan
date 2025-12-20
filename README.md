@@ -1,4 +1,4 @@
-# 🌐 Adnan Khan – Personal Portfolio Website
+# 🌐 Adnan Khan – Personal Portfolio Websit
 
 A modern, responsive, and SEO-optimized personal portfolio website built to showcase my skills, projects, achievements, and academic journey as a **B.Tech Computer Science Engineering student**.
 
