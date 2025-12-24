@@ -1,4 +1,4 @@
-# 🌐 Adnan Khan – Personal Portfolio Website
+#  Adnan Khan – Personal Portfolio Website
 
 A modern, responsive, and SEO-optimized personal portfolio website built to showcase my skills, projects, achievements, and academic journey as a **B.Tech Computer Science Engineering student**.
 
@@ -7,7 +7,7 @@ https://coding-philic.github.io/Adnan-Khan/
 
 ---
 
-## 📌 About the Project
+##  About the Project
 
 This portfolio is designed to represent my technical profile in a clean, professional, and recruiter-friendly manner.  
 It highlights my work in **Web Development, AI, Robotics, and Software Engineering**, along with real projects and achievements.
@@ -19,22 +19,22 @@ The website is optimized for:
 
 ---
 
-## ✨ Features
+##  Features
 
-- ⚡ Modern hero section with personal branding
-- 📖 About section with clear career focus
-- 🛠️ Skill cards with animated progress bars
-- 🚀 Featured projects with tech stack tags
-- 🏆 Experience & achievements timeline
-- 🎓 Education & certifications section
-- 📄 Downloadable resume (PDF)
-- 📬 Contact section with social links & form
-- 🔍 SEO & Open Graph meta tags (LinkedIn preview ready)
-- 📱 Fully responsive (mobile, tablet, desktop)
+-  Modern hero section with personal branding
+-  About section with clear career focus
+-  Skill cards with animated progress bars
+-  Featured projects with tech stack tags
+-  Experience & achievements timeline
+-  Education & certifications section
+-  Downloadable resume (PDF)
+-  Contact section with social links & form
+-  SEO & Open Graph meta tags (LinkedIn preview ready)
+-  Fully responsive (mobile, tablet, desktop)
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Frontend**
 - HTML5 (Semantic & SEO-friendly)
@@ -48,7 +48,7 @@ The website is optimized for:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 📁 Adnan-Khan/
 │
 ├── index.html # Main HTML file
@@ -60,7 +60,7 @@ The website is optimized for:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 This project is deployed using **GitHub Pages**.
 
@@ -72,7 +72,7 @@ To deploy:
 
 ---
 
-## 📸 Social Preview Support
+##  Social Preview Support
 
 The website includes:
 - Open Graph meta tags
@@ -86,18 +86,18 @@ So links preview correctly on:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Adnan Khan**  
 B.Tech CSE Student | Web Developer | AI & Robotics Enthusiast  
 
-- 🔗 LinkedIn: https://linkedin.com/in/adnan-khan3  
-- 💻 GitHub: https://github.com/Coding-Philic  
-- 📧 Email: Adnan.Khan63945@gmail.com  
+-  LinkedIn: https://linkedin.com/in/adnan-khan3  
+-  GitHub: https://github.com/Coding-Philic  
+-  Email: Adnan.Khan63945@gmail.com  
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and available for learning and inspiration.  
 Feel free to fork and customize — attribution appreciated.
